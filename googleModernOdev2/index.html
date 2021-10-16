@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <title>Google | Odev</title>
 </head>
+
 <body>
     <!-- Header for Upper Right Links -->
     <header>
-        <a class="upperlink" href="">Gmail</a>
-        <a class="upperlink" href="">Görseller</a>
-        <a class="upperlink" href="">...</a> <!-- Change me to something-->
+        <a class="links" href="">Gmail</a>
+        <a class="links" href="">Görseller</a>
+        <a class="links" href="">...</a> <!-- Change me to something-->
         <button id="sign">Oturum açın</button>
     </header>
     <!-- Main Box For Setting Up Everything-->
@@ -20,11 +22,32 @@
         <img src="imgs/google.png">
         <br>
         <br>
-        <div id="searchbox">
+        <!-- Search Box -->
+        <div class="searchbox">
             <input id="inputbox" type="text">
+            <img src="imgs/mag.ico" alt="" id="inputboximg">
         </div>
+        <!-- Search Box Buttons -->
         <input class="inputbtn" type="button" value="Google'da Ara">
         <input class="inputbtn" type="button" value="Kendimi Şanslı Hissediyorum">
-    </div>   
+    </div>
+    <!-- First Footer -->
+    <div class="bb">Türkiye</div>
+    <!-- Second Footer -->
+    <div class="bb bblow">
+        <div class="leftlinks">
+            <a href="" class="links lb">Hakkında</a>
+            <a href="" class="links lb">Reklam</a>
+            <a href="" class="links lb">İşletme</a>
+            <a href="" class="links lb">Arama nasıl çalışır?</a>
+        </div>
+        <div class="centerlink"><a href="" class="links lb">2007'den bugüne karbon nötr.</a></div>
+        <div class="rightlinks">
+            <a href="" class="links lb">Gizlilik</a>
+            <a href="" class="links lb">Şartlar</a>
+            <a href="" class="links lb">Ayarlar</a>
+        </div>
+    </div>
 </body>
+
 </html>
